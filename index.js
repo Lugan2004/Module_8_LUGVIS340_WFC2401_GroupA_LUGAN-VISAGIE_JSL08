@@ -23,12 +23,12 @@ class BankBranch {
 
 // Step 5: Usage section
 // Create instances of the BankBranch class
-const branchA = new BankBranch({ name: 'Branch A', address: '123 Main St' });
-const branchB = new BankBranch({ name: 'Branch B', address: '456 Oak Rd' });
+const branchA = new BankBranch({ name: 'Cape Town branch', address: '123 Voortrekker Rd' });
+const branchB = new BankBranch({ name: 'Prieska branch', address: '456 pappegaai Str' });
 
 // Use the getBranchInfo method to retrieve branch information
-console.log(branchA.getBranchInfo()); // Output: { name: 'Branch A', address: '123 Main St' }
-console.log(branchB.getBranchInfo()); // Output: { name: 'Branch A', address: '123 Main St' }
+console.log(branchA.getBranchInfo()); // Output:{ name: 'Cape Town branch', address: '123 Voortrekker Rd' }
+console.log(branchB.getBranchInfo()); // Output:{ name: 'Cape Town branch', address: '123 Voortrekker Rd' }
 
 // Verify that branchA and branchB are referring to the same instance
 console.log(branchA === branchB); // Output: true
